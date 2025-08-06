@@ -13,7 +13,7 @@ def main(page: ft.Page):
     result = ft.Text()
 
     def save_data(e):
-        with open("register.csv", "a", newline="", encoding="utf-8") as file:
+        with open("register.cvs", "a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             # writer.writerow([""])
             list = f"Name[ {name.value} ], Phone[ {phone.value} ], Team[ {team.value} ]"
